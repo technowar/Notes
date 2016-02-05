@@ -1,0 +1,22 @@
+{
+  "name": "notes",
+  "version": "0.0.0",
+  "description": "Notes application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johmel Rey Pintor",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "hapi": "^12.0.0",
+    "inert": "^3.2.0",
+    "mongoose": "^4.4.1",
+    "vision": "^4.0.1"
+  },
+  "devDependencies": {
+    "code": "^2.1.0",
+    "lab": "^8.2.0"
+  }
+}
