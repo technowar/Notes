@@ -1,0 +1,10 @@
+app:
+  image: "technowar/notes:latest"
+  links:
+    - "db"
+  ports:
+    - "8000:8000"
+db:
+  image: "tutum/mongodb:3.0"
+  ports:
+    - "27017:27017"

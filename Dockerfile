@@ -17,4 +17,3 @@ WORKDIR /usr/src
 RUN npm install
 
 CMD [ "npm", "start" ]
-
